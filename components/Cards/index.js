@@ -56,5 +56,5 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
         });
     })
     .catch(err => {
-        console.log("Error: " + err);
+        console.log(err);
     })
